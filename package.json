@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "puppeteer-extra": "^3.3.4",
+    "chrome-paths": "^1.0.1",
+    "excel4node": "^1.8.0",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "puppeteer-core": "^1.9.0"
+  }
+}
