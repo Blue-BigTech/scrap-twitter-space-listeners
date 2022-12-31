@@ -249,7 +249,7 @@ const usersProfileDetails = async (start) => {
         rowIndex++;
     });
 
-    const filename = `twitter/${FileName}-space-Lisenters-data.xlsx`;
+    const filename = `result/${FileName}-space-Lisenters-data.xlsx`;
     wb.write(filename);
 
     await browser.close();
