@@ -1,20 +1,24 @@
 {
+  "name": "twitter-space-scrap-listeners",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
   "dependencies": {
     "chrome-paths": "^1.0.1",
     "excel4node": "^1.8.0",
-    "JSONStream": "^1.3.5",
+    "http": "^0.0.1-security",
     "lodash": "^4.17.21",
-    "node-xlsx": "^0.21.0",
-    "path": "^0.12.7",
-    "puppeteer": "^18.0.4",
-    "puppeteer-autoscroll-down": "^1.1.1",
+    "node-fetch": "^3.3.0",
+    "puppeteer": "^19.4.1",
+    "puppeteer-core": "^19.4.1",
     "puppeteer-extra": "^3.3.4",
     "puppeteer-extra-plugin-stealth": "^2.11.1",
-    "puppeteer-har": "^1.1.2",
-    "ws": "^8.9.0",
-    "xlsx": "^0.18.5"
-  },
-  "devDependencies": {
-    "puppeteer-core": "^1.9.0"
+    "request": "^2.88.2",
+    "request-promise-native": "^1.0.9"
   }
 }
