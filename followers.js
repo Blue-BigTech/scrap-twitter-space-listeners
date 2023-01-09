@@ -265,6 +265,8 @@ const getusers = async () => {
                     }
                 }
 
+                console.clear();
+
 
                 // if (countFails == 30) {
                 // clearInterval(timer);

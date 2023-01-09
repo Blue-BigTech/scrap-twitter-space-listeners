@@ -28,7 +28,7 @@ var fs = require("fs");
 
 
     await page.waitForTimeout(300000)
-    const NewcookiesFilePath = "twiter-cookies.json";
+    const NewcookiesFilePath = "twitter-cookies.json";
     // Save Session Cookies
     const cookiesObject = await page.cookies();
     // Write cookies to temp file to be used in other profile pages
