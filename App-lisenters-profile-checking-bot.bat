@@ -1,4 +1,4 @@
 @echo off
 cd %~dp0
-node space-listeners-checking-bot.js
+node space-lisenters-checking-bot.js
 pause

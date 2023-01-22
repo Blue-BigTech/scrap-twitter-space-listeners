@@ -16,7 +16,7 @@ var fs = require("fs");
 const _ = require("lodash");
 const fetch = (...args) =>
   import("node-fetch").then(({ default: fetch }) => fetch(...args));
-var datafile = fs.readFileSync("./bigdata42k+followers.json");
+var datafile = fs.readFileSync("./ryan-carson-followers-76898.json");
 datafile = datafile.toString();
 var datajson = JSON.parse(datafile);
 
